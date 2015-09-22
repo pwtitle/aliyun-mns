@@ -10,7 +10,7 @@ Aliyun MNS PHP SDK
 	$accessKeySecret = "请从阿里云后台获取"；
 
 	require_once 'Mns.php';
-	$mns = new Aliyun\Mns("$accountId.mns.cn-hangzhou-internal.aliyuncs.com", $accountId, $accessKeySecret);
+	$mns = new Aliyun\Mns("$accountId.mns.cn-hangzhou-internal.aliyuncs.com", $accessKeyId, $accessKeySecret);
 
 	// 创建队列
 	$result = $mns->createQueue("test");
